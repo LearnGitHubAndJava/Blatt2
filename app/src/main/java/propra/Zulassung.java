@@ -55,6 +55,7 @@ public class Zulassung {
 
         for(Map.Entry<Integer, Integer> element : matrikelnummerPunkt.entrySet()){
             System.out.println("Matrikelnummer: "+ element.getKey() + ", Punkte: "+ element.getValue());
+            
         }
         
 
