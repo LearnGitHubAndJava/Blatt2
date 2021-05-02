@@ -62,5 +62,17 @@ public class Zulassung {
     }
 
     private void set() {
+        HashSet<Integer> matrikelnummern = new HashSet<>();
+        matrikelnummern.add(1942000);
+        matrikelnummern.add(1972300);
+        matrikelnummern.add(203400);
+        HashSet<Integer> mat=new HashSet<>();
+        mat.add(1942000);
+        mat.add(23);
+        mat.addAll(matrikelnummern);
+        System.out.println(mat);
+
+
+
     }
 }
